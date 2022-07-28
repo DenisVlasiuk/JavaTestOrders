@@ -11,4 +11,8 @@ public class Order {
         this.isVegan = isVegan;
         this.customerName = customerName;
     }
+    @Override
+    public String toString(){
+        return "your order price is " + price + ", is vegan? - " + isVegan +", customer name is " + customerName;
+    }
 }
